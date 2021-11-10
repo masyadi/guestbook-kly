@@ -4,7 +4,7 @@ This is my simple program.
 
 ## Instalation
 - Clone or download repository
-- copy the .env file and rename it to ".env", then adjust the following variable with your database
+- copy the .env.example file and rename it to ".env", then adjust the following variable with your database
     ```html
     DB_DATABASE=
     DB_USERNAME=
