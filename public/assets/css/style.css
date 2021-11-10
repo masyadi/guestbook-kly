@@ -1,0 +1,227 @@
+/* Global Settings 
+
+company brand color:
+- yellow: #fdcf18
+- brown: #a86125
+--------------------------------------- */
+
+html{scroll-behavior:smooth}
+
+body {
+    border-top: 3px solid #fdcf18;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(#ffffff, #ffffff); 
+    background-color: #FFF;
+}
+
+a {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #a86125;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #a86125;
+}
+
+a.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.8em;
+}
+h3 {
+    font-weight: 300;
+    font-size: 3.2em;
+}
+
+.news h3, .judul-icon {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.jumbotron {
+    border-radius: 0;
+    margin: 0;
+}
+
+.white {
+    color: #FFF;
+}
+
+.metadata {
+    color: #999;
+    font-size: .9em;
+}
+
+.breadcrumb {
+    background: none;
+}
+
+.page-item.active .page-link {
+    background-color: #a86125;
+    border-color: #a86125;
+}
+
+a.page-link {
+    color: #a86125;
+}
+
+.btn-brown {
+    color: #FFF;
+    background-color: #a86125;
+    border-color: #a86125;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    position: relative;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    
+  }
+  .carousel-item > img {
+    min-width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+  }
+
+/* footer area */
+.jumbotron.enquiry {
+    background: #000 url(../img/bg.enquiry.png) no-repeat;
+}
+
+.footer {
+    border-top: 3px solid #a86125;
+}
+
+.footer h4 {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.form-holder {
+    background: #FFF;
+    padding: 40px;
+}
+
+/* Halaman Home
+--------------------------------------- */
+
+.company-value {
+    background: #000;
+    color: #FFF;
+}
+
+.small-title {
+    text-transform: uppercase;
+}
+.headline h1 {
+    font-size: 3.8em;
+    font-weight: 300;
+}
+
+.judul-icon {
+    font-weight: 700;
+}
+
+.info-kontak {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.row.no-pad {
+    margin-right:0;
+    margin-left:0;
+  }
+  .row.no-pad > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+  }
+
+
+/* Halaman News dan News Detail 
+-------------------------------------- */
+.newsletterbox {
+    background: #AA6116;
+    color: #FFF;
+}
+
+/* Halaman Produk, Kategori Produk, dan Produk Detail 
+-------------------------------------- */
+
+.request-info a {
+    color: #FFF:
+}
+
+.spesies h5 {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+/* Halaman History & Meet Our Team 
+-------------------------------------- */
+.jumbotron.hero-history {
+    padding: 0;
+}
+
+h2.judul-section {
+    font-weight: 300;
+}
+
+.grey {
+    background: #EEE;
+}
+
+.why {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.yellow {
+    border-right: 5px solid #fdcf18;
+}
+
+.jabatan {
+    font-style: italic;
+}
+
+.team h2 {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+
+
+/* Untuk tampilan mobile responsiove
+--------------------------------------- */
+
+@media only screen and (max-width: 700px)
+{
+    ul.navbar-nav {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .carousel-item {
+        height: 17rem;
+      }
+      .carousel-item > img {
+        height: 18rem;
+      }
+}
